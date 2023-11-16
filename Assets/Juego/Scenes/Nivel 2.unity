@@ -6229,15 +6229,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - tiempoSalida: 0
-    cantidad: 4
+    cantidad: 10
     prefab: {fileID: 1498750440386690, guid: d59a856dda35f714faf0f1e052666033, type: 3}
-    ruta: {fileID: 1509456631}
-  - tiempoSalida: 10
-    cantidad: 3
+    ruta: {fileID: 1675283314}
+  - tiempoSalida: 15
+    cantidad: 6
     prefab: {fileID: 1561694053617324, guid: 2a2a535b3c27a86439a7f760532fad45, type: 3}
     ruta: {fileID: 1675283314}
-  - tiempoSalida: 25
-    cantidad: 8
+  - tiempoSalida: 20
+    cantidad: 4
     prefab: {fileID: 6311937572946013165, guid: ec4bf1d61dc1a2246bf027cb9fb8c481,
       type: 3}
     ruta: {fileID: 1509456631}
@@ -8558,15 +8558,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - tiempoSalida: 0
-    cantidad: 5
+    cantidad: 4
     prefab: {fileID: 6311937572946013165, guid: ec4bf1d61dc1a2246bf027cb9fb8c481,
       type: 3}
-    ruta: {fileID: 1675283314}
-  - tiempoSalida: 15
-    cantidad: 3
-    prefab: {fileID: 1561694053617324, guid: 2a2a535b3c27a86439a7f760532fad45, type: 3}
     ruta: {fileID: 1509456631}
-  tiempo_entre_olas: 20
+  - tiempoSalida: 6
+    cantidad: 4
+    prefab: {fileID: 1561694053617324, guid: 2a2a535b3c27a86439a7f760532fad45, type: 3}
+    ruta: {fileID: 1675283314}
+  tiempo_entre_olas: 0
   PuedeAgregarButton: 0
 --- !u!1 &1605232727
 GameObject:
@@ -8651,12 +8651,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - tiempoSalida: 0
-    cantidad: 3
-    prefab: {fileID: 1498750440386690, guid: d59a856dda35f714faf0f1e052666033, type: 3}
-    ruta: {fileID: 1675283314}
-  - tiempoSalida: 15
-    cantidad: 12
-    prefab: {fileID: 1561694053617324, guid: 2a2a535b3c27a86439a7f760532fad45, type: 3}
+    cantidad: 8
+    prefab: {fileID: 6311937572946013165, guid: ec4bf1d61dc1a2246bf027cb9fb8c481,
+      type: 3}
     ruta: {fileID: 1509456631}
   tiempo_entre_olas: 0
   PuedeAgregarButton: 0
