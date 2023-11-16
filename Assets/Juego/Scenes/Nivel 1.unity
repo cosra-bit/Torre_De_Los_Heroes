@@ -1510,8 +1510,8 @@ MonoBehaviour:
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 0}
-  FeedbackIsProportionalToDamage: 0
-  PreventTakeSelfDamage: 0
+  FeedbackIsProportionalToDamage: 1
+  PreventTakeSelfDamage: 1
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
   KnockbackForceMultiplier: 1
@@ -1922,9 +1922,9 @@ MonoBehaviour:
   ContinuousPress: 0
   GettingHitInterruptsAttack: 0
   UseSecondaryAxisThresholdToShoot: 0
-  ForceWeaponAimControl: 0
+  ForceWeaponAimControl: 1
   ForcedWeaponAimControl: 1
-  ForceAlwaysShoot: 0
+  ForceAlwaysShoot: 1
   BufferInput: 0
   NewInputExtendsBuffer: 0
   MaximumBufferDuration: 0.25
@@ -7094,7 +7094,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -11696,12 +11696,12 @@ MonoBehaviour:
     cantidad: 4
     prefab: {fileID: 1498750440386690, guid: d59a856dda35f714faf0f1e052666033, type: 3}
     ruta: {fileID: 1509456631}
-  - tiempoSalida: 10
+  - tiempoSalida: 5
     cantidad: 3
     prefab: {fileID: 1561694053617324, guid: 2a2a535b3c27a86439a7f760532fad45, type: 3}
     ruta: {fileID: 1675283314}
-  - tiempoSalida: 25
-    cantidad: 8
+  - tiempoSalida: 7
+    cantidad: 3
     prefab: {fileID: 6311937572946013165, guid: ec4bf1d61dc1a2246bf027cb9fb8c481,
       type: 3}
     ruta: {fileID: 1509456631}
